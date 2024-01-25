@@ -18,7 +18,7 @@ This project differs from [the project from which it's forked](https://github.co
 
 ## How to deploy
 1. Create a repository based on this template via the "Use this template" button (you don't fork, a fork is for contributing to this template or creating your own template, repository name must be blazor-pages, and keep all branches!)
-2. Go to your repository Settings > GitHub Pages > set the source branch to `gh-pages-from-actions`
+2. Go to your repository Settings > GitHub Pages > set the source branch to `gh-pages` (at the root)
 3. View your site at https://[ `your user name` | `your organization name` ].github.io
 
 ## How it works
