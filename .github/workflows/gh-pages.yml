@@ -17,7 +17,7 @@ jobs:
         dotnet-version: 6.0.x
 
     - name: Publish with dotnet
-      run: dotnet publish {BlazorPages}.sln -c:Release -o:publish -p:GHPages=true
+      run: dotnet publish {blazor-pages}.sln -c:Release -o:publish -p:GHPages=true
     - name: Deploy to Github Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
